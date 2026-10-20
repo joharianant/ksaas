@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: publish
+
+server:
+  port: 8080
+  address: 0.0.0.0
+
+app:
+  kafka:
+    bootstrap-servers: 'pkc-921jm.us-east-2.aws.confluent.cloud:9092'
+    topic: confluent-topic
+    api-key: 'R5C2SHKWNMV7VEOE'
+    api-secret: 'cflt6eTsQOmRV7tJ8DhH1/VYNZAmvm8cuqa81f9DZd+Dz1y0bSsS14ky1FjfiqKA'
+
+  schema-registry:
+    url: 'https://psrc-lq2dm.us-east-2.aws.confluent.cloud'
+    api-key: 'ZY3O37DA4HZSPBKC'
+    api-secret: 'cfltS6okh6BANrUDwkyr7fpYf2F6nY2zyNltUDalJ8l5A1R3EacK+XZlaqBe8/fQ'
